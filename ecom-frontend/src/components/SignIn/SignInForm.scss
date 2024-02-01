@@ -1,0 +1,27 @@
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+  
+    h2 {
+      margin: 10px 0;
+    }
+  
+    .buttons-container {
+      display: flex;
+      justify-content: space-between;
+  
+      button {
+        flex: 1; // Make buttons fill the container equally
+        margin: 0 5px; // Add margin if you want some space between buttons
+        
+        &:first-child {
+          margin-left: 0; // Remove left margin for the first button
+        }
+  
+        &:last-child {
+          margin-right: 0; // Remove right margin for the last button
+        }
+      }
+    }
+  }
